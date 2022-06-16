@@ -11,7 +11,7 @@
 .todo-app {
   min-width: 380px;
   max-width: 60%;
-  min-height: 320px;
+  min-height: 440px;
   max-height: 100%;
   background: #fafafa;
   display: flex;
@@ -21,7 +21,23 @@
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(25,25,25,.25);
   padding: 3rem;
+  margin-left: 20%;
 }
+
+.todo-list {
+  font-size: 100%;
+  list-style: none;
+  width: 100%;
+  overflow-x: hidden;
+  margin-top: 2rem;
+}
+
+.todo-title {
+  margin-bottom: auto;
+  margin-top: 0;
+  line-height: 1;
+}
+
 .todo {
   margin-left: 35px;
   margin-right: 40px;
